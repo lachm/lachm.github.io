@@ -1,0 +1,17 @@
+---
+layout: page
+title: Posts
+permalink: /posts/
+panel_footer: '<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>'
+---
+{% for post in site.posts %}
+  <div class="media">
+    <div class="media-body">
+      <h4 class="media-heading">
+        <span class="label label-info">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h4>
+      {{ post.content | strip_html | strip | truncate: 400, '...' }}
+    </div>
+  </div>
+{% endfor %}

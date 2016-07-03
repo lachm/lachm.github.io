@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="panel panel-primary">
+  {% if page.title %}
+  <header class="panel-heading">
+    <h3 class="panel-title">{{ page.title }}</h3>
+    {% if page.date %}
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    {% endif %}
+    {% if page.author %}
+    • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+    {% endif %}
+  </header>
+  {% endif %}
+  <div class="panel-body">
+    {{ content }}
+  </div>
+  {% if page.panel_footer %}
+  <div class="panel-footer">
+    {{ page.panel_footer }}
+  </div>
+  {% endif %}
+</div>

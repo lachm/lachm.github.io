@@ -28,6 +28,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$footer-height: 150px;
 
 
 // Use media queries like this:
@@ -43,6 +44,12 @@ $on-laptop:        800px;
     }
 }
 
+@mixin side-padding($device, $size) {
+    @media screen and (min-width: $device) {
+        padding-left: $size;
+        padding-right: $size;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
