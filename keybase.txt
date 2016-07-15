@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/lachm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lachm.com
+  * I am lachm (https://keybase.io/lachm) on keybase.
+  * I have a public key with fingerprint 80C5 F450 AFFB 20FD D68C  FA59 3BBA 93AA 59C8 FDAB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c9ad559bd70c11815c483bb1453bdb85035fe1806d6fc550fe35dcab030fcee10a",
+            "fingerprint": "80c5f450affb20fdd68cfa593bba93aa59c8fdab",
+            "host": "keybase.io",
+            "key_id": "3bba93aa59c8fdab",
+            "kid": "0101c9ad559bd70c11815c483bb1453bdb85035fe1806d6fc550fe35dcab030fcee10a",
+            "uid": "e1447212b58da45e3be26afafeb2d019",
+            "username": "lachm"
+        },
+        "service": {
+            "hostname": "lachm.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468551895,
+    "expire_in": 157680000,
+    "prev": "be306fec90b86cc081033479becd65ec91c1f5aa2efc3c0ecd33919d54ee306e",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMM/AnicrVJtUFRVGN4VwgQMC4dEAuIagzYI9+7ds3vvluYHAyoNIIIiINu955zL
+3pa9d9kPPiSqSWAQCp2AJdcxNW1KtCmtZCy0wagsDAxRsFIZ4isdQWNGQgW7l6mZ
+fvSz8+ec85znec7zvvO2z/fR+Guf+6K+eeu56aPajrbdbs2W6vTeMoKXUSlhKiOs
+eHbDBQg7XWariAgTQVIkBVkOAcDyyEhCimIoAPUMzfOUHtA84hlA0kDAFEMakEGA
+AJACpgGCHE/SpAAxpkiOiCUEUcrHDrtDlFyKLUNCIOgByQkCryMFhAwMFDjAKrYc
+S3PKCTIC4nhFaJGdqkIJx3NOHCfKCqZczLPx/oP/P+d2z9phSq836igdDxjE6QGm
+eawzcAInYF6HSIpViU7skDgbVtgFHLTYiPJYQoGKRIjVrqpl/Ps5Dso2RWV3yC4Z
+ygUKbHG57CZV5Sq1q7RizJv/NjDzooSUBiqCIuxwirJEmCiFCV2i6kjpDQwAFMOC
+WAKX2EUHNosqAxgNDKks9RtcpFjymCYNAoYsyTMGCEmGImlab2R5DJEBKDgFKQFw
+nA4LkIakgtI0S7EI6LGqxIRaUqEkEya9EpPLVyydYr7EudwOTJSfbcv11Wj9NX6P
+zFEHS+M/b8E/4/ZTatDDjV15/dqsiAifqKeloe7QXmfeR55DwQuTLJW76opbcgp3
+HTz94U3LveHL0bAchcSnmFceiW6oaZwsKZoMKgsNbhvpqVs30XL14s6t3tsr1/cv
+upS4X+Lba1cFeNvSZ0x73b88OHsyJSnlcpbOm3pKulteE9RsvnEmOSlgRWDVkUVP
+VBKthX9kNaTM7BlyjdlSkWdN8vFh3/Ka8YdxXccyqixLffCmfPnqm6bw+nONY7Xx
+Pjc/ht89PrdpNNGvMTM9cnzZCaK1Y87hH+vtbS5f42u1E92DXxcuX52aOV61LP11
++fx9nHs+uMPfd+T6VweiDx4wvj//5A9JfjOrO1vTBl+antv11K2MOm1F39G10X6L
+X1z1bNkOd33ktm8/CF/ieSzfkr03bvqYVfvO27s/udM0fOdU1I3cV17deK/zyeAw
+PnlgX9+F9PEwb3Pk1DXm+e/taHtTmvReoE2b1DJxLbRnz+blCeAFzf3pmMN9PZ8N
+V1jTrPVXtENsWEL7o+OLE1vXX4iIy+gN/O3Pzp7ShuyJqZef+eZi7raysF+zVxSl
+hmxa+GBzZXXUl30RvjFnrMbEpZVjP+8LHhjob5hCV1IGF1TYw++eoI4XY7GkwLsB
+5y0ZycmsSpjZ8ta7l6A2/I1D8+K9KCHA8/kOv+7ttro1O82ToyX7bTGNXVSy+/fa
+nGpPyO3T10dveT4N/AuzE8Lb
+=NTEZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lachm
+
+==================================================================
