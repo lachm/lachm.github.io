@@ -20,3 +20,9 @@ timezone: America/New_York
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      permalink: /posts/:title/
