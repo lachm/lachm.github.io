@@ -1,0 +1,23 @@
+{% if include.type == 'begin' %}
+{% assign cnt = 0 %}
+{% assign name = include.name %}
+<div class="panel-group" id="accordion-{{ name }}" role="tablist" aria-multiselectable="true">
+{% elsif include.type == 'end' %}
+</div>
+{% elsif include.type == 'item' %}
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="{{ name }}-heading-{{ cnt }}">
+    <h4 class="panel-title">
+      <a role="button" data-toggle="collapse" data-parent="#accordion-{{ name }}" href="#{{ name }}-collapse-{{ cnt }}" aria-expanded="false" aria-controls="{{ name }}-collapse-{{ cnt }}">
+        {{ include.name }}
+      </a>
+    </h4>
+  </div>
+  <div class="panel-collapse collapse" id="{{ name }}-collapse-{{ cnt }}" role="tabpanel" aria-labelledby="{{ name }}-heading-{{ cnt }}">
+    <div class="panel-body">
+      {{ include.md | markdownify }}
+    </div>
+  </div>
+</div>
+{% assign cnt = cnt | plus: 1 %}
+{% endif %}

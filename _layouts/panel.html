@@ -4,7 +4,7 @@ layout: default
 <div class="panel panel-primary">
   {% if page.title %}
   <header class="panel-heading">
-    <h3 class="panel-title">{{ page.title }}</h3>
+    <h3 class="panel-title">{% if page.long_title %}{{ page.long_title }}{% else %}{{ page.title }}{% endif %}</h3>
     {% if page.date %}
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
     {% endif %}

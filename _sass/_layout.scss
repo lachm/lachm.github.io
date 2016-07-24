@@ -12,6 +12,11 @@ html {
 
 body {
     margin-bottom: $footer-height + 20px;
+    font-size: $low-font-size;
+}
+
+.h5, h5 {
+    font-size: $low-font-size;
 }
 
 .footer {
@@ -20,6 +25,5 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    // height: $footer-height;
     background-color: #f5f5f5;
 }
