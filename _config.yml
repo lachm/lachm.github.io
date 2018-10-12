@@ -9,12 +9,13 @@
 title: Lachlan McCarty
 email: lachlan@lachm.com
 description: > # this means to ignore newlines until "baseurl:"
-  lachm.com is the personal website of Lachlan McCarty, a New Jersey
-  high schooler with strong interests in tech and computer science.
+  lachm.com is the personal website of Lachlan McCarty, a Princeton University
+  undergraduate with strong interests in tech and computer science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.lachm.com" # the base hostname & protocol for your site
 twitter_username: lachm_
 github_username:  lachm
+resume_permalink: /downloads/Resume_Lachlan_McCarty_10_11_18.pdf
 
 timezone: America/New_York
 
