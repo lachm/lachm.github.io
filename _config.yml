@@ -22,7 +22,11 @@ timezone: America/New_York
 markdown: kramdown
 
 defaults:
-  - scope:
+  -
+    scope:
       path: "_posts"
     values:
       permalink: /posts/:title/
+
+plugins:
+  - jekyll-redirect-from
