@@ -14,11 +14,12 @@
 
       <div class="collapse navbar-collapse" id="site-nav-bar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ site.url }}{{ site.resume_permalink }}">Resume</a></li>
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li {% if page.title == my_page.title %}class="active"{% endif %}><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}{% if page.title == my_page.title %}<span class="sr-only"> (current)</span>{% endif %}</a></li>
-            {% endif %}
+          {% assign titled_pages = site.pages | where_exp: "item", "item.title" %}
+          {% assign ordered_pages = titled_pages | where_exp: "item", "item.site_pages_order" | sort: "site_pages_order" %}
+          {% assign unordered_pages = titled_pages | where_exp: "item", "item.site_pages_order == nil" %}
+          {% assign titled_pages = ordered_pages | concat: unordered_pages %}
+          {% for p in titled_pages %}
+            <li {% if page.title == p.title %}class="active"{% endif %}><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}{% if page.title == p.title %}<span class="sr-only"> (current)</span>{% endif %}</a></li>
           {% endfor %}
         </ul>
       </div>
